@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(203, 63, 63);
+  color: floralwhite;
+  font-family: Castoro, serif;
+}
+
+
+#header-nav, #page-footer {
+  background-color: rgb(130, 9, 9)!important;
+  color: floralwhite;
+}
+
+#logo-img {
+  padding-right: 10px;
+  height: 40px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  color: floralwhite;
+  font-size: 2.5em;
+  text-align: top;
+}
+
+#navbarNav {
+  justify-content: right;
+}
+
+.nav-link {
+  font-size: large;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: rgb(203, 63, 63);
+}
+
+h2 {
+  font-size: 2em;
+  color:floralwhite;
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 1.3em;
+  color:floralwhite;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+#item-color {
+  background-color: rgb(128, 38, 38);
+}
+
+section p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .9em;
+  color: white;
+  margin: 10px;
+}
+
+.navbar-toggler {
+  background-color: rgb(203, 63, 63);
+}
+
+.navbar-toggler:focus {
+  background-color: rgb(201, 194, 181);
+}
+
+.nav-link:hover {
+  background-color: floralwhite;
+  color:rgb(128, 38, 38);
+}
+
+#navbarNav {
+  background-color: rgb(201, 194, 181);
+}
+
+.backTop {
+  font-size: small;
+  text-align: right;
+}
+
+@media (max-width: 575px) {
+  .navbar-brand {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+}
